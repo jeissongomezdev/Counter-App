@@ -5,4 +5,4 @@ import "./index.css";
 
 const root = createRoot(document.getElementById("root"));
 
-root.render(<PrimeraApp />);
+root.render(<PrimeraApp saludo="Hola Mundo" />);
