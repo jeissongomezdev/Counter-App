@@ -4,6 +4,7 @@ import { createRoot } from "react-dom/client";
 import CounterApp from "./CounterApp";
 import "./index.css";
 
-const root = createRoot(document.getElementById("root"));
+const divRoot = document.querySelector("#root");
+const root = createRoot(divRoot);
 
-root.render(<CounterApp value={29} />);
+root.render(<CounterApp value={10} />);
